@@ -1,0 +1,3 @@
+export const LOAD_CODES_SUCCESS = 'codes/LOAD_COURSES_SUCCESS';
+
+
