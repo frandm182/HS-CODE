@@ -1,5 +1,4 @@
 export default {
-  bd: {
     codes: [],
     code: {
       chapter: '00',
@@ -7,7 +6,7 @@ export default {
       subheading: '00',
       value: ''
     },
-    modal: true
-
-    }   
+    modal: false,
+    editCode: null,
+    tabIndex: 1
 };
