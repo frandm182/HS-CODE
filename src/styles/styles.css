@@ -9,9 +9,21 @@
 a.active {
   color: orange;
 }
-
+.btn-toolbar > .btn {
+    width: 48%;
+}
 nav {
   padding-top: 20px;
+}
+.panel-primary {
+  margin-top: 25px;
+}
+
+.panel-body {
+  text-align: center;
+}
+.panel-primary > .panel-body {
+  cursor: pointer;
 }
 
 .Modal {
@@ -23,7 +35,7 @@ nav {
     box-shadow: 1px 1px 1px black;
     padding: 16px;
     left: 15%;
-    top: 30%;
+    top: 20%;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
 }
@@ -36,7 +48,28 @@ nav {
     top: 0;
     background-color: rgba(0,0,0,0.5);
 }
+.Panel {
+  text-align: center;
+}
+.CodeForm li.disabled {
+  cursor: no-drop;
+}
 
+.CodeForm li.active a {
+  background-color: #222 !important;
+  color: white !important;
+}
+.list-group {
+  padding: 2px;
+}
+button.list-group-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.tab-content {
+      height: 250px;
+    overflow-y: scroll;
+}
 .Button {
     background-color: transparent;
     border: none;
